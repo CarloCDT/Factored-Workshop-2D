@@ -19,8 +19,8 @@ The action space consists of 4 discrete actions:
 
 ## Rewards
 The agent's objective is to get the ball into the goal.
- - +2.3 when the agent reaches the house's door.
- - -0.1 Existential penalty (each step).
+- +2.3 when the agent reaches the house's door.
+- -0.1 Existential penalty (each step).
 
 This reward selection means a perfect agent will get a total reward of `1.0` per episode.
  
